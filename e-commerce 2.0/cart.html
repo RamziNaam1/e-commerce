@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html">E-commerce</a>
+        <div class="cart"><i class="fa-solid fa-cart-shopping"></i>
+            <p id="count">0</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidehead">
+                <div class="dots">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle" style="color: #a0ce96;"></i>
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <hr style="margin: 15px 0; border: 1px solid #eee">
+            </div>
+            <div class="sidebody" style="height: 69vh;">
+                <div class="searchBar">
+                    <input placeholder="Search..." id="searchBar" name="searchBar" type="text">
+                    <i class="fa-solid fa-magnifying-glass glass" id="btn"></i>
+                </div>
+            </div>
+            <div class="sidefoot">
+                <hr style="margin: 15px 0; border: 1px solid #eee">
+                <div class="social-icons">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-square-github"></i>
+                </div>
+            </div>
+
+        </div>
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head">
+                <p>My Cart</p>
+            </div>
+            <div id="cartItem">Your cart is empty</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total"> 0.00 TND</h2>
+            <div class="checkout">
+                <a href="chekout.html">checkout <style>
+                    a{
+                        color:black;
+                    }
+                </style>
+                   
+                </a>
+            </div>    
+                
+            </div>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+</body>
+
+</html>
